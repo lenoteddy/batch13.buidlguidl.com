@@ -67,7 +67,7 @@ So if you want to take your GitHub skills to the next level, start actively enga
 
 After successfully graduating, we have futher challenges for you to tackle. If you haven't done all the SpeedRunEthereum challenges, give them a try.
 Then there is the ETH Tech Tree and also our Capture the Flag (CTF) challenges to hone and practice your solidity skills.
-If you run through a couple of these and want to continue building, you’ll have the opportunity to apply for a builder’s grant to develop a full-scale dApp! Acceptance will depend on both your contributions during the batch program and the description in the application of your project. For more details on the process and how to apply, ask us.
+If you run through a couple of these and want to continue building, you’ll have the opportunity to apply for a builder’s grant to develop a full-scale dApp! Acceptance will depend on both your contributions during the batch program and the description in the application of your project. For more details on the process and how to apply, pls approach us.
 
 ## Useful Resources
 
