@@ -9,15 +9,15 @@
 ## Introduction
 
 Let’s get you up to speed on what this program is all about and what you can look forward to.
-At the heart of it all is this GitHub repository, where you’ll collaborate with your batch members by working on issues and submitting pull requests. To graduate successfully you will need to complete [Issue #1](/../../issues/1), [Issue #2](/../../issues/2) and show engagment in solving other issues. If you run into any issues or have any questions, reach out to us in the Telegram group.
+At the heart of it all is this GitHub repository, where you’ll collaborate with your batch members by working on issues and submitting pull requests. To graduate successfully you will need to complete [Issue a)](/../../issues/9), [Issue b)](/../../issues/8) and show engagment in solving other issues. If you run into any issues or have any questions, reach out to us in the Telegram group.
 
 Here’s a quick rundown of what you’ll be doing:
 
 1. **Introduce Yourself:** Start by introducing yourself to the batch and mentors in GitHub discussion.
-2. **Complete [Issue #1](/../../issues/1):** 'Check in' to our smart contract by writing one of your own.
-3. **Move to [Issue #2](/../../issues/2):** Create a personal page and submit it to the batch repository via a pull request (PR).
+2. **Complete [Issue a)](/../../issues/9):** 'Check in' to our smart contract by writing one of your own.
+3. **Move to [Issue b)](/../../issues/8):** Create a personal page and submit it to the batch repository via a pull request (PR).
 4. **Choose Open Issues:** After completing the initial tasks, explore and pick other open issues to work on—either individually or by collaborating with other batch members.
-5. **Graduate Successfully:** To graduate and mint the Graduation NFT (#9), you must complete [Issue #1](/../../issues/1), [Issue #2](/../../issues/2) and gives your best effort in solving other issues.
+5. **Graduate Successfully:** To graduate and mint the Graduation NFT (#9), you must complete [Issue a)](/../../issues/9), [Issue b)](/../../issues/8) and gives your best effort in solving other issues.
 
 We aim to empower you with the skills of dApp development and collaborating with other developers. Remember, we’ll be with you every step of the way. Let’s build something amazing together!
 
@@ -67,7 +67,7 @@ So if you want to take your GitHub skills to the next level, start actively enga
 
 After successfully graduating, we have futher challenges for you to tackle. If you haven't done all the SpeedRunEthereum challenges, give them a try.
 Then there is the ETH Tech Tree and also our Capture the Flag (CTF) challenges to hone and practice your solidity skills.
-If you run through a couple of these and want to continue building, you’ll have the opportunity to apply for a builder’s grant to develop a full-scale dApp! Acceptance will depend on both your contributions during the batch program and the description in the application of your project. For more details on the process and how to apply, check out [Issue #9](/../../issues/9)
+If you run through a couple of these and want to continue building, you’ll have the opportunity to apply for a builder’s grant to develop a full-scale dApp! Acceptance will depend on both your contributions during the batch program and the description in the application of your project. For more details on the process and how to apply, ask us.
 
 ## Useful Resources
 
