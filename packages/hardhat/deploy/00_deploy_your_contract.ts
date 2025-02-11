@@ -43,6 +43,17 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
   // The GraduationNFT contract is deployed on the BatchRegistry constructor.
   const batchGraduationNFTAddress = await batchRegistry.batchGraduationNFT();
   console.log("BatchGraduation NFT deployed to:", batchGraduationNFTAddress, "\n");
+
+  // Deploy CheckIn contract to trigger `BatchRegistry` contract `checkIn` function.
+  await deploy("CheckIn", {
+    from: deployer,
+    // Contract constructor arguments
+    args: ["0xcF4ac52079F69C93904e2A4a379cAd1F0C8dA0A9", "0x8CBdaac423dEC5E99d1a87ed8205054AE24A6dAD"],
+    log: true,
+    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
+    // automatically mining the contract deployment transaction. There is no effect on live networks.
+    autoMine: true,
+  });
 };
 
 export default deployYourContract;
