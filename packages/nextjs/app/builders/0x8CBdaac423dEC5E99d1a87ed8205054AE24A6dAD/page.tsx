@@ -1,12 +1,7 @@
-"use client";
-
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import type { NextPage } from "next";
 
 const BuilderPage: NextPage = () => {
-  const pathname = usePathname();
-
   return (
     <div className="max-w-lg mx-auto pt-10 px-5">
       <h1 className="text-center mb-4">
@@ -17,7 +12,7 @@ const BuilderPage: NextPage = () => {
         </div>
       </h1>
       <Image
-        src={`/pfp-${pathname?.replace("/builders/", "")}.jpg`}
+        src={`/pfp-0x8CBdaac423dEC5E99d1a87ed8205054AE24A6dAD.jpg`}
         alt="profile picture"
         width={256}
         height={256}
