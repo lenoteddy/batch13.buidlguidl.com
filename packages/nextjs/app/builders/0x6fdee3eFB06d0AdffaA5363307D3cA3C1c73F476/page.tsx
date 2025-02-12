@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import type { NextPage } from "next";
 import { FaGithub } from "react-icons/fa";
@@ -11,7 +10,7 @@ const PortfolioBijoy: NextPage = () => {
     <>
       <div className="flex flex-col items-center">
         <div className="flex flex-col mt-24 items-center">
-          <img src="/luffy.jpg" alt="" className="rounded-lg w-36 h-36" />
+          <Image src="/luffy.webp" alt="profile image" width={200} height={200} className="rounded-lg" />
           <span className="font-mono mt-2 text-2xl font-semibold">Bijoy Roy</span>
         </div>
         <div className="flex mt-5 space-x-5">
