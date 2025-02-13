@@ -9,7 +9,7 @@ const PortfolioBijoy: NextPage = () => {
   return (
     <>
       <div className="flex flex-col items-center">
-        <div className="flex flex-col mt-24 items-center">
+        <div className="flex flex-col mt-24 items-center w-auto h-auto">
           <Image src="/luffy.webp" alt="profile image" width={200} height={200} className="rounded-lg" />
           <span className="font-mono mt-2 text-2xl font-semibold">Bijoy Roy</span>
         </div>
@@ -18,7 +18,7 @@ const PortfolioBijoy: NextPage = () => {
             href="https://github.com/Bijoy99roy"
             className="transition duration-300 ease-in-out hover:shadow-[0_0_10px_rgba(255,255,255,0.8)] rounded-full"
           >
-            <FaGithub size={30} className="text-white" />
+            <FaGithub size={30} />
           </Link>
 
           <Link
