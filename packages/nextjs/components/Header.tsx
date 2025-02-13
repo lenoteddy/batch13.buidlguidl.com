@@ -94,11 +94,16 @@ export const Header = () => {
         </div>
         <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
           <div className="flex relative w-10 h-10">
-            <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
+            <Image
+              alt="DALL·E generated image, prompt: create a logo of 'Scaffold ETH 2 App - Batch 13'"
+              className="cursor-pointer"
+              fill
+              src="/logo.webp"
+            />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">Scaffold-ETH</span>
-            <span className="text-xs">Ethereum dev stack</span>
+            <span className="font-bold leading-tight">Batch #13</span>
+            <span className="text-xs">🚀 Scaffold ETH 2 - Batch 13: Build, test, deploy faster! ⚡</span>
           </div>
         </Link>
         <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">
