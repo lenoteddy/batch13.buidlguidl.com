@@ -94,7 +94,12 @@ export const Header = () => {
         </div>
         <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
           <div className="flex relative w-10 h-10">
-            <Image alt="DALL·E generated image" className="cursor-pointer" fill src="/logo.webp" />
+            <Image
+              alt="Scaffold ETH 2 - Batch 13 (DALL·E generated image)"
+              className="cursor-pointer"
+              fill
+              src="/logo.webp"
+            />
           </div>
           <div className="flex flex-col">
             <span className="font-bold leading-tight">Batch #13</span>
