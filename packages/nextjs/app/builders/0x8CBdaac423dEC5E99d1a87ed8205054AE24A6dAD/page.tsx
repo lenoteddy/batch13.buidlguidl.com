@@ -2,6 +2,13 @@ import Image from "next/image";
 import type { NextPage } from "next";
 
 const BuilderPage: NextPage = () => {
+  const socials = [
+    { name: "Github", link: "https://github.com/lenoteddy", color: "text-gray-500" },
+    { name: "Telegram", link: "https://t.me/teddyleno", color: "text-sky-500" },
+    { name: "X", link: "https://x.com/lenoteddy", color: "text-gray-900" },
+    { name: "Discord", link: "https://discordapp.com/users/874985086565613598", color: "text-purple-500" },
+  ];
+
   return (
     <div className="max-w-lg mx-auto pt-10 px-5">
       <h1 className="text-center mb-4">
@@ -31,46 +38,20 @@ const BuilderPage: NextPage = () => {
       <br />
       <p className="mb-0 text-lg">🔗 Follow me on:</p>
       <ul className="flex items-center gap-x-4">
-        <li>
-          <a
-            href="https://github.com/lenoteddy"
-            className="underline text-gray-500 font-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://t.me/teddyleno"
-            className="underline text-sky-500 font-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Telegram
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://x.com/lenoteddy"
-            className="underline text-gray-900 font-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            X
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://discordapp.com/users/874985086565613598"
-            className="underline text-purple-500 font-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Discord
-          </a>
-        </li>
+        {socials.map((val, key) => {
+          return (
+            <li key={key}>
+              <a
+                href={val.link}
+                className={`underline font-bold ${val.color}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {val.name}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
