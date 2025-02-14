@@ -99,6 +99,7 @@ export const Header = () => {
               className="cursor-pointer"
               fill
               src="/logo.webp"
+              sizes="max-width:40px;"
             />
           </div>
           <div className="flex flex-col">
